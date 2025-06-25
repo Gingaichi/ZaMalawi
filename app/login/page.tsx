@@ -1,8 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
-import Link from "next/link";
-import { login, signup } from "./actions";
+import { login} from "./actions";
 import { createClient } from "@/utils/supabase/client";
 
 export default function AuthCard() {

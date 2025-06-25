@@ -2,7 +2,7 @@ import Image from "next/image";
 import { stripe } from "@/lib/stripe";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Carousel } from "@/components/carousel";
+
 import { Card } from "@/components/ui/card";
 
 export default async function Home() {
@@ -29,7 +29,7 @@ export default async function Home() {
       <br />
       Whatever your warm heart desires.
       <br /><br />
-      <Card><a href="/products">Start shopping now</a></Card>
+      <Card><Link href="/products">Start shopping now</Link></Card>
     </h1>
   </div>
 </div>
@@ -73,7 +73,7 @@ export default async function Home() {
       <h2 className="text-white text-2xl font-bold text-center px-4">
         Traditional Clothing
       </h2><br />
-      <Card className="rounded-none"><a href="/products">find your style</a></Card>
+      <Card className="rounded-none"><Link href="/products">find your style</Link></Card>
     </div>
   </div>
   <div className="relative w-1/3 h-full">
@@ -82,7 +82,7 @@ export default async function Home() {
       <h2 className="text-white text-1xl lg:text-2xl md:text-2xl font-bold text-center px-4">
         Everything Malawi
       </h2><br />
-      <Card className="rounded-none"><a href="/products">start shopping now</a></Card>
+      <Card className="rounded-none"><Link href="/products">start shopping now</Link></Card>
     </div>
   </div>
   <div className="relative w-1/3 h-full">
@@ -91,7 +91,7 @@ export default async function Home() {
       <h2 className="text-white text-2xl font-bold text-center px-4">
         Food
       </h2><br />
-      <Card className="rounded-none"><a href="/products">Feed your hunger</a></Card>
+      <Card className="rounded-none"><Link href="/products">Feed your hunger</Link></Card>
     </div>
   </div>
 </div>
