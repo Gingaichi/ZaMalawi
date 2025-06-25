@@ -1,8 +1,10 @@
 # 🛒 Za Malawi – E-commerce Platform for Malawian Businesses
+![image](https://github.com/user-attachments/assets/89301cc8-503c-48a0-8585-adc9a8fe74f4)
+
 
 Visit website over here
 https://za-malawi.vercel.app/
-![image](https://github.com/user-attachments/assets/89301cc8-503c-48a0-8585-adc9a8fe74f4)
+
 
 
 Za Malawi is an e-commerce web application built to support and empower local businesses in Malawi. It has secue authentication and Stripe-powered payments.
